@@ -1,0 +1,45 @@
+*{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	top:5px;
+	/* top:0; */
+	right:-6%;
+	/* left:50%; */
+	transform: translate(-50%, 0);
+	background-color:rgb(75, 75, 75);
+	color:#FFF;
+	border-radius:5px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 1
+}
+
+.my-float{
+	margin-top:22px;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.my-float:focus {
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(255, 136, 0);
+	color: white;
+	font-size: 10px;
+	text-align: left;
+	padding-left: 70%;
+ }

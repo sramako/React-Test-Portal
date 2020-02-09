@@ -1,0 +1,39 @@
+.card {
+    border-radius: 10px;
+    /* padding-right: 20px; */
+    /* border: solid; */
+    margin-bottom: 20px;
+    /* position: relative; */
+
+}
+
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cardImage {
+    min-width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.cardImageContent {
+    border-radius: 10px;
+    min-width: 100%;
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 70%, rgb(255, 255, 255, 0))
+}
+
+.cardTime {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+    font-size: 12px;
+}
